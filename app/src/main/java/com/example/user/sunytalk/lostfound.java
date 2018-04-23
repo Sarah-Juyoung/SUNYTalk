@@ -1,4 +1,4 @@
 package com.example.user.sunytalk;
 
-public class OpenBoard {
+public class lostfound {
 }

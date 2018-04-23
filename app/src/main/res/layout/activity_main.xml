@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/Button_announce"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="Announcement"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/Button_buyandsell"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="Buy/Sell"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/Button_lostandfound"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="Lost/Found"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/Button_cafeteria"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="Cafeteria"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/Button_shuttle"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="Shuttle"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <Button
+        android:id="@+id/Button_openboard"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="Openboard"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="396dp" />
 
 </android.support.constraint.ConstraintLayout>

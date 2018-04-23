@@ -1,4 +1,4 @@
 package com.example.user.sunytalk;
 
-public class LostFound {
+public class cafeteria {
 }
