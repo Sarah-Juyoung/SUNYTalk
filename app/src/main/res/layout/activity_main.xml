@@ -25,6 +25,7 @@
                 android:id="@+id/Button_announce"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
+                android:background="#FD999A"
                 android:text="Announcement"
                 tools:layout_editor_absoluteX="32dp"
                 tools:layout_editor_absoluteY="35dp" />
@@ -33,6 +34,7 @@
                 android:id="@+id/Button_openboard"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
+                android:background="#FEC8C9 "
                 android:text="Openboard"
                 tools:layout_editor_absoluteX="206dp"
                 tools:layout_editor_absoluteY="396dp" />
