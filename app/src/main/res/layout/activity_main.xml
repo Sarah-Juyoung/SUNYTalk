@@ -7,52 +7,73 @@
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="25dp">
 
-    <Button
-        android:id="@+id/Button_announce"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:text="Announcement"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="35dp" />
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="550dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
 
-    <Button
-        android:id="@+id/Button_buyandsell"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:text="Buy/Sell"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="35dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/Button_lostandfound"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:text="Lost/Found"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="214dp" />
+            <Button
+                android:id="@+id/Button_announce"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Announcement"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="35dp" />
 
-    <Button
-        android:id="@+id/Button_cafeteria"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:text="Cafeteria"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="214dp" />
+            <Button
+                android:id="@+id/Button_openboard"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Openboard"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="396dp" />
 
-    <Button
-        android:id="@+id/Button_shuttle"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:text="Shuttle"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="396dp" />
+            <Button
+                android:id="@+id/Button_buyandsell"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Buy/Sell"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="35dp" />
 
-    <Button
-        android:id="@+id/Button_openboard"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
-        android:text="Openboard"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="396dp" />
+            <Button
+                android:id="@+id/Button_lostandfound"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Lost/Found"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <Button
+                android:id="@+id/Button_shuttle"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Shuttle"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="396dp" />
+
+            <Button
+                android:id="@+id/Button_cafeteria"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Cafeteria"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="214dp" />
+
+            <Button
+                android:id="@+id/Button_setting"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Setting"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="214dp" />
+        </LinearLayout>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
