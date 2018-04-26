@@ -18,17 +18,23 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView_shuttle"
+            android:id="@+id/textView_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Shuttle bus schedule" />
+            android:text="Enter your university email." />
 
-        <ImageView
-            android:id="@+id/imageView"
+        <EditText
+            android:id="@+id/editText"
             android:layout_width="match_parent"
-            android:layout_height="297dp"
-            app:srcCompat="@android:drawable/btn_star_big_on" />
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
 
+        <Button
+            android:id="@+id/button_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify your email" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
