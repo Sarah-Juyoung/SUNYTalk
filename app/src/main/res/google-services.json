@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "547554589049",
+    "firebase_url": "https://sunytalk-32983.firebaseio.com",
+    "project_id": "sunytalk-32983",
+    "storage_bucket": "sunytalk-32983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547554589049:android:58b2d9ac233b5c42",
+        "android_client_info": {
+          "package_name": "com.example.user.sunytalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547554589049-9lr44drggri865j57fhb15rnipjku5of.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.sunytalk",
+            "certificate_hash": "632d09cc211034e2e7997f969499deb5e54acb7b"
+          }
+        },
+        {
+          "client_id": "547554589049-6hb6vv5362vl99cdqfrfj5nuea1o6sj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKTje6kekhI-oHBt5JxAbdiC2M9D19Ing"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547554589049-6hb6vv5362vl99cdqfrfj5nuea1o6sj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
