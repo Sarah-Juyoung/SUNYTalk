@@ -26,7 +26,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:background="#FD999A"
-                android:text="Announcements"
+                android:text="Announcement"
+
                 tools:layout_editor_absoluteX="32dp"
                 tools:layout_editor_absoluteY="35dp" />
 

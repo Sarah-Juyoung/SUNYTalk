@@ -12,7 +12,7 @@ public class signup extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         //start Login
-        startActivityForResult(AuthUI.getInsatance().createSignInIntentBuilder());
+        //startActivityForResult(AuthUI.getInsatance().createSignInIntentBuilder());
     }
 
 }
