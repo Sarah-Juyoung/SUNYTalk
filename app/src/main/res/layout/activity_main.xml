@@ -27,6 +27,7 @@
                 android:layout_height="140dp"
                 android:background="#FD999A"
                 android:text="Announcement"
+                android:onClick="openAnnouncement"
 
                 tools:layout_editor_absoluteX="32dp"
                 tools:layout_editor_absoluteY="35dp" />
@@ -37,6 +38,7 @@
                 android:layout_height="140dp"
                 android:background="#FEC8C9 "
                 android:text="Openboard"
+                android:onClick="openOpenboard"
                 tools:layout_editor_absoluteX="206dp"
                 tools:layout_editor_absoluteY="396dp" />
 
@@ -45,6 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:text="Buy/Sell"
+                android:onClick="openBuysell"
                 tools:layout_editor_absoluteX="206dp"
                 tools:layout_editor_absoluteY="35dp" />
 
@@ -53,6 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:text="Lost/Found"
+                android:onClick="openLostFound"
                 tools:layout_editor_absoluteX="32dp"
                 tools:layout_editor_absoluteY="214dp" />
 
@@ -61,6 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:text="Shuttle"
+                android:onClick="openShuttle"
                 tools:layout_editor_absoluteX="32dp"
                 tools:layout_editor_absoluteY="396dp" />
 
@@ -69,6 +74,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:text="Cafeteria"
+                android:onClick="openCafeteria"
                 tools:layout_editor_absoluteX="206dp"
                 tools:layout_editor_absoluteY="214dp" />
 
@@ -77,6 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:text="Setting"
+                android:onClick="openSetting"
                 tools:layout_editor_absoluteX="206dp"
                 tools:layout_editor_absoluteY="214dp" />
         </LinearLayout>

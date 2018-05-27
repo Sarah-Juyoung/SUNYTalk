@@ -16,6 +16,69 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".announcement"
+            android:label=".announcement">
+
+        </activity>
+
+        <activity
+            android:name=".buysell"
+            android:label=".buysell">
+
+        </activity>
+
+        <activity
+            android:name=".cafeteria"
+            android:label=".cafeteria">
+
+        </activity>
+
+        <activity
+            android:name=".login"
+            android:label=".login">
+
+        </activity>
+
+        <activity
+            android:name=".lostfound"
+            android:label=".lostfound">
+
+        </activity>
+
+        <activity
+            android:name=".openboard"
+            android:label=".openboard">
+
+        </activity>
+
+        <activity
+            android:name=".setting"
+            android:label=".setting">
+
+        </activity>
+
+        <activity
+            android:name=".shuttle"
+            android:label=".shuttle">
+
+        </activity>
+
+        <activity
+            android:name=".signup"
+            android:label=".signup">
+
+        </activity>
+
+        <activity
+            android:name=".signup2"
+            android:label=".signup2">
+
+        </activity>
+
+
     </application>
 
 </manifest>

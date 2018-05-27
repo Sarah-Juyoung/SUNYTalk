@@ -5,14 +5,18 @@ import android.support.v7.app.AppCompatActivity;
 
 public class signup extends AppCompatActivity {
 
-    private static final int PER_LOGIN =1000;
+    //private static final int PER_LOGIN =1000;
 
-    @Override
+
+
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_signup);
+    }
+
 
         //start Login
         //startActivityForResult(AuthUI.getInsatance().createSignInIntentBuilder());
-    }
+
 
 }

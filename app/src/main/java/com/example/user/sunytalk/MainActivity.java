@@ -24,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openCafeteria(View target){
+        Intent intent = new Intent(getApplicationContext(), cafeteria.class);
+        startActivity(intent);
+    }
+
     public void openLogin(View target){
         Intent intent = new Intent(getApplicationContext(), login.class);
         startActivity(intent);
