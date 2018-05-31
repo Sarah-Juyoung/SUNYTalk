@@ -75,18 +75,6 @@
             android:textColor="#cccccc"
             android:textCursorDrawable="@null"></EditText>
 
-        <Spinner
-            android:id="@+id/spinner2"
-            android:layout_width="match_parent"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="15dp"
-            android:padding="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_height="45dp"
-            android:background="#88888888"
-            android:entries="@array/tags_arrays"
-            />
-
         <Button
             android:id="@+id/up_image"
             android:layout_width="match_parent"
