@@ -17,17 +17,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/textView_shuttle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Shuttle bus schedule" />
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="297dp"
-            app:srcCompat="@android:drawable/btn_star_big_on" />
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/newshuttle" />
 
 
     </LinearLayout>
