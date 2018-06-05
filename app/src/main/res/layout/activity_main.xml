@@ -16,31 +16,25 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <LinearLayout
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false" />
+
+            <Button
+                android:id="@+id/Button_announce"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_weight="1"
 
-                <CalendarView
-                    android:id="@+id/calendarView"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-                    android:baselineAligned="false" />
-
-                <Button
-                    android:id="@+id/Button_announce"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="2"
-
-                    android:background="#FD999A"
-                    android:baselineAligned="false"
-                    android:onClick="openAnnouncement"
-                    android:text="Announcement"
-                    tools:layout_editor_absoluteX="32dp"
-                    tools:layout_editor_absoluteY="35dp" />
-
-            </LinearLayout>
+                android:background="#FD999A"
+                android:baselineAligned="false"
+                android:onClick="openAnnouncement"
+                android:text="Announcement"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="35dp" />
 
         </TableRow>
 
@@ -49,41 +43,35 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/Button_cafeteria"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_weight="1"
+                android:onClick="openCafeteria"
+                android:text="Cafeteria"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="214dp" />
 
-                <Button
-                    android:id="@+id/Button_lostandfound"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="openLostFound"
-                    android:text="Lost/Found"
-                    tools:layout_editor_absoluteX="32dp"
-                    tools:layout_editor_absoluteY="214dp" />
+            <Button
+                android:id="@+id/Button_shuttle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:onClick="openShuttle"
+                android:text="Shuttle"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="396dp" />
 
-                <Button
-                    android:id="@+id/Button_shuttle"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="openShuttle"
-                    android:text="Shuttle"
-                    tools:layout_editor_absoluteX="32dp"
-                    tools:layout_editor_absoluteY="396dp" />
-
-                <Button
-                    android:id="@+id/Button_cafeteria"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="openCafeteria"
-                    android:text="Cafeteria"
-                    tools:layout_editor_absoluteX="206dp"
-                    tools:layout_editor_absoluteY="214dp" />
-            </LinearLayout>
+            <Button
+                android:id="@+id/Button_lostandfound"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="openLostFound"
+                android:text="Lost/Found"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="214dp" />
 
         </TableRow>
 
@@ -91,42 +79,36 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <LinearLayout
+            <Button
+                android:id="@+id/Button_openboard"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_weight="1"
+                android:background="#FEC8C9 "
+                android:onClick="openOpenboard"
+                android:text="Openboard"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="396dp" />
 
-                <Button
-                    android:id="@+id/Button_settings"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="openSetting"
-                    android:text="Setting"
-                    tools:layout_editor_absoluteX="206dp"
-                    tools:layout_editor_absoluteY="214dp" />
+            <Button
+                android:id="@+id/Button_buyandsell"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:onClick="openBuysell"
+                android:text="Buy/Sell"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="35dp" />
 
-                <Button
-                    android:id="@+id/Button_buyandsell"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="openBuysell"
-                    android:text="Buy/Sell"
-                    tools:layout_editor_absoluteX="206dp"
-                    tools:layout_editor_absoluteY="35dp" />
-
-                <Button
-                    android:id="@+id/Button_openboard"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="#FEC8C9 "
-                    android:onClick="openOpenboard"
-                    android:text="Openboard"
-                    tools:layout_editor_absoluteX="206dp"
-                    tools:layout_editor_absoluteY="396dp" />
-            </LinearLayout>
+            <Button
+                android:id="@+id/Button_settings"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="openSetting"
+                android:text="BlackBoard"
+                tools:layout_editor_absoluteX="206dp"
+                tools:layout_editor_absoluteY="214dp" />
 
         </TableRow>
 
